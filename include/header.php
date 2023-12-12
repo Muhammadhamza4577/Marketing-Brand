@@ -39,20 +39,20 @@
                   </div> -->
                <div class="collapse navbar-collapse" id="main_nav">
                   <ul class="navbar-nav">
-                     <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
-                     <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+                     <li class="nav-item active"> <a class="nav-link" href="index.php">Home </a> </li>
+                     <li class="nav-item"><a class="nav-link" href="about-us.php"> About </a></li>
                      <li class="nav-item dropdown" id="myDropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Services  </a>
                         <ul class="dropdown-menu">
                            <li>
-                              <a class="dropdown-item" href="#"> Amazon Store Creation &raquo; </a>
+                              <a class="dropdown-item" href="amazon-store-creation.php"> Amazon Store Creation &raquo; </a>
                               <ul class="submenu dropdown-menu">
                                  <li><a class="dropdown-item" href="#">Listing creation</a></li>
                                  <li><a class="dropdown-item" href="#">Amazon Storefront</a></li>
                               </ul>
                            </li>
                            <li>
-                              <a class="dropdown-item" href="#"> Amazon Product Hunting &raquo; </a>
+                              <a class="dropdown-item" href="amazon-product-hunting.php"> Amazon Product Hunting &raquo; </a>
                               <ul class="submenu dropdown-menu">
                                  <li><a class="dropdown-item" href="#">Product Research</a></li>
                                  <li><a class="dropdown-item" href="#">Niche Analysis</a></li>
@@ -60,9 +60,9 @@
                                  <li><a class="dropdown-item" href="#">Basic Keyword Research</a></li>
                               </ul>
                            </li>
-                           <li><a class="dropdown-item" href="#"> EBC/A+ Content </a></li>
+                           <li><a class="dropdown-item" href="ebca+-content.php"> EBC/A+ Content </a></li>
                            <li>
-                              <a class="dropdown-item" href="#"> Virtual Assistant &raquo; </a>
+                              <a class="dropdown-item" href="virtual-assistant.php"> Virtual Assistant &raquo; </a>
                               <ul class="submenu dropdown-menu">
                                  <li><a class="dropdown-item" href="#">Amazon Inventory Management</a></li>
                                  <li><a class="dropdown-item" href="#">Amazon Account Feedback</a></li>
@@ -70,20 +70,17 @@
                                  <li><a class="dropdown-item" href="#">Analytics & Reporting</a></li>
                               </ul>
                            </li>
-                           <li><a class="dropdown-item" href="#"> Amazon PPC </a></li>
-                           <li><a class="dropdown-item" href="#"> Amazon FBA Automation </a></li>
+                           <li><a class="dropdown-item" href="amazon-ppc.php"> Amazon PPC </a></li>
+                           <li><a class="dropdown-item" href="amazon-fba-automation.php"> Amazon FBA Automation </a></li>
                         </ul>
                      </li>
-                     <li class="nav-item"><a class="nav-link" href="#"> Shopify Dropshipping </a></li>
+                     <li class="nav-item"><a class="nav-link" href="shopify-dropshipping.php"> Shopify Dropshipping </a></li>
                   </ul>
                </div>
                <!-- navbar-collapse.// -->
                <div class="head-btn">
-                  <a href="#">Contact Sales</a>
+                  <a class="btn-1" href="contact-us.php">Contact Sales</a>
                </div>
-               <div class="btn-1">
-  BUTTON
-</div>
             </div>
          </nav>
       </div>

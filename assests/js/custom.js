@@ -2,13 +2,13 @@ $('.serv-slide').slick({
     arrows: true,
     infinite: false,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           arrows: true,
@@ -76,5 +76,28 @@ $('.serv-slide').slick({
         }); 
         // DOMContentLoaded  end
 
-
-        
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+            
+            $({ countNum: $this.text()}).animate({
+              countNum: countTo
+            },
+          
+            {
+          
+              duration: 8000,
+              easing:'linear',
+              step: function() {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function() {
+                $this.text(this.countNum);
+                //alert('finished');
+              }
+          
+            });  
+            
+            
+          
+          });

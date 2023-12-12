@@ -22,9 +22,9 @@
                   </li>
                </ul>
                <div class="bnr-btn">
-                  <a class="get-btn" href="#">Get a Quote</a>
-                  <a class="cht-btn" href="#">Live Chat</a>
-               </div>
+                        <a class="btn-1" href="#">Get a Quote</a>
+                        <a class="btn-2" href="#">Live Chat</a>
+                    </div>
             </div>
          </div>
          <div class="col-md-3 middle-img">
@@ -130,7 +130,7 @@
                         <h2>Amazon Store Creation</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -147,7 +147,7 @@
                         <h2>Amazon Product Hunting</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -164,7 +164,7 @@
                         <h2>EBC/A+ Content</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -181,7 +181,7 @@
                         <h2>Amazon Store Creation</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -198,7 +198,7 @@
                         <h2>Amazon Product Hunting</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -215,7 +215,7 @@
                         <h2>EBC/A+ Content</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                      </div>
-                     <div class="serv-btn">
+                     <div class="serv-btn1">
                         <a href="#">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </a>
@@ -242,9 +242,9 @@
                <p>We, at Amazon Profs, ensure that the metrics and solutions assigned for a certain campaign are according to the client’s requirements. Measuring effectiveness across all channels and adjusting the strategy accordingly is a pivotal aspect of managing and organizing a campaign. A marketing plan for Amazon should provide value, engage the target audience, and ensure high productivity.</p>
                <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
                <div class="bnr-btn campaign">
-                  <a class="Reviews-btn" href="#">Read Our Star Rating Reviews</a>
-                  <a class="cht-btn" href="#">Live Chat</a>
-               </div>
+                        <a class="btn-1 Reviews-btn" href="#">Read Our Star Rating Reviews</a>
+                        <a class="btn-2" href="#">Live Chat</a>
+                    </div>
                <img class="camp-arrow" src="assests/images/camp-arrow.png" alt="">
             </div>
          </div>
@@ -267,9 +267,9 @@
                   <h3>STARS ON CAPTERRA & GETAPP</h3>
                </div>
                <div class="bnr-btn promo">
-                  <a class="Reviews-btn" href="#">Get a Quote</a>
-                  <a class="cht-btn" href="#">Live Chat</a>
-               </div>
+                        <a class="btn-1" href="#">Get a Quote</a>
+                        <a class="btn-2" href="#">Live Chat</a>
+                    </div>
             </div>
          </div>
          <div class="col-md-6">
@@ -316,7 +316,7 @@
                <p>If you are skeptical about hiring an Amazon business consultant to promote your online store.</p>
             </div>
             <div class="bnr-btn">
-               <a class="boost-btn" href="#">Boost Your Sale
+               <a class="btn-4" href="#">Boost Your Sale
                <img src="assests/images/icon-areo.png" alt="">
                </a>
             </div>
@@ -366,9 +366,9 @@
                   </li>
                </ul>
                <div class="bnr-btn campaign">
-                  <a class="Reviews-btn" href="#">Get a Quote</a>
-                  <a class="cht-btn" href="#">Live Chat</a>
-               </div>
+                        <a class="btn-1" href="#">Get a Quote</a>
+                        <a class="btn-2" href="#">Live Chat</a>
+                    </div>
             </div>
          </div>
          <div class="col-md-6">
@@ -462,7 +462,7 @@
                <p>If you are skeptical about hiring an Amazon business consultant to promote your online store.</p>
             </div>
             <div class="bnr-btn">
-               <a class="boost-btn" href="#">Boost Your Sale
+            <a class="btn-4" href="#">Boost Your Sale
                <img src="assests/images/icon-areo.png" alt="">
                </a>
             </div>
@@ -479,17 +479,13 @@
                   <img src="assests/images/plan-01.png" alt="">
                   <h1>PPC</h1>
                   <p>Higher revenue, lower ACOS, and transparent advertising management.</p>
-                  <a class="plan-btn" href="#">
-                  Learn More
-                  </a>
+                  <a class="btn-1 plans" href="#">Learn More</a>
                </div>
                <div class="plan-serv-box">
                   <img src="assests/images/plan-02.png" alt="">
                   <h1>SEO</h1>
                   <p>Our 4-phase Amazon SEO plan is best-in-class and will show dramatic results in search rankings in 90 days.</p>
-                  <a class="plan-btn" href="#">
-                  Learn More
-                  </a>
+                  <a class="btn-1 plans" href="#">Learn More</a>
                </div>
             </div>
          </div>
@@ -499,17 +495,13 @@
                   <img src="assests/images/plan-03.png" alt="">
                   <h1>Design</h1>
                   <p>Enhanced Brand Content, Brand Stores, and graphics that convert.</p>
-                  <a class="plan-btn" href="#">
-                  Learn More
-                  </a>
+                  <a class="btn-1 plans" href="#">Learn More</a>
                </div>
                <div class="plan-serv-box">
                   <img src="assests/images/plan-04.png" alt="">
                   <h1>Platform Management</h1>
                   <p>Higher revenue, lower ACOS, and transparent advertising management.</p>
-                  <a class="plan-btn" href="#">
-                  Learn More
-                  </a>
+                  <a class="btn-1 plans" href="#">Learn More</a>
                </div>
             </div>
          </div>
@@ -517,13 +509,13 @@
             <div class="plan-txt-box">
                 <h1>How Our Services Help You Grow <span class="txt-clr"> Market Share </span></h1>
                 <p>To help you increase your sales, we take a two-step approach. First, we drive traffic to your listings. And then we boost your conversions. Sounds simple, doesn’t it? It is. <br> By building your PPC campaigns, developing your SEO, enhancing your designs, and curating and troubleshooting your catalogs, we’ll strengthen your brand and your performance on Seller Central. You should be seeing more traffic and revenue within just a few months.</p>
-                <a class="plan-btn" href="#">Explore All Services</a>
+                <a class="btn-1" href="#">Explore All Services</a>
             </div>
             <div class="price-box-cntnt">
                 <h3>Looking For</h3>
                 <h1>Custom Plans Pricing &</h1>
                 <p>Request a Proposal To Recieve Yours.</p>
-                <a class="plan-btn" href="#">Request A Quote</a>
+                <a class="btn-1" href="#">Request A Quote</a>
             </div>
          </div>
       </div>
@@ -538,7 +530,7 @@
                     <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. </p>
                     <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
                     <div class="bnr-btn">
-                        <a class="boost-btn" href="#">Read Our 5+ Client Rating</a>
+                        <a class="btn-4" href="#">Read Our 5+ Client Rating</a>
                         <img class="test-arrow" src="assests/images/camp-arrow.png" alt="">
                     </div>
                 </div>
