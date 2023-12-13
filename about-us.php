@@ -278,7 +278,7 @@
                     <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. </p>
                     <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
                     <div class="bnr-btn">
-                        <a class="boost-btn" href="#">Read Our 5+ Client Rating</a>
+                        <a class="btn-4" href="#">Read Our 5+ Client Rating</a>
                         <img class="test-arrow" src="assests/images/camp-arrow.png" alt="">
                     </div>
                 </div>

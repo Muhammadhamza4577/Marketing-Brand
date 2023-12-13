@@ -22,9 +22,9 @@
                   </li>
                </ul>
                <div class="bnr-btn">
-                        <a class="btn-1" href="#">Get a Quote</a>
-                        <a class="btn-2" href="#">Live Chat</a>
-                    </div>
+                  <a class="btn-1" href="#">Get a Quote</a>
+                  <a class="btn-2" href="#">Live Chat</a>
+               </div>
             </div>
          </div>
          <div class="col-md-3 middle-img">
@@ -106,7 +106,7 @@
       </div>
    </div>
 </section>
-<section class="our-services" id="scroll-down">
+<section class="our-services-tabs" id="scroll-down">
    <div class="container">
       <div class="row">
          <div class="col-md-8">
@@ -119,107 +119,112 @@
       </div>
       <div class="row">
          <div class="col-md-12 my-all-serv">
-            <div class="all-serv serv-slide">
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/shop.png" alt="">
-                        <img class="myhover" src="assests/images/shop-hover.png" alt="">
+            <div id="servtabs">
+                <div class="servtab-line">
+                    <img src="assests/images/servtab-line.png" alt="">
+                </div>
+               <ul id="servaccordion">
+                  <li>
+                     <a class="active" href="#servtabs-1">
+                        <div class="servtag">
+                           <div class="servicon">
+                              <div class="servblock">
+                                 <div class="servcircle">1</div>
+                              </div>
+                           </div>
+                           <span class="servtitle">Amazon Store Creation</span>
+                        </div>
+                     </a>
+                     <div class="servaddon fadein">
+                        <span class="mypara">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        </span>
                      </div>
-                     <div class="serv-cntnt">
-                        <h2>Amazon Store Creation</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                  </li>
+                  <li>
+                     <a href="#servtabs-2">
+                        <div class="servtag">
+                           <div class="servicon">
+                              <div class="servblock">
+                                 <div class="servcircle">2</div>
+                              </div>
+                           </div>
+                           <span class="servtitle">Amazon Product Hunting</span>
+                        </div>
+                     </a>
+                     <div class="servaddon">
+                        <span class="mypara">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        </span>
                      </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
+                  </li>
+                  <li>
+                     <a href="#servtabs-3">
+                        <div class="servtag">
+                           <div class="servicon">
+                              <div class="servblock">
+                                 <div class="servcircle">3</div>
+                              </div>
+                           </div>
+                           <span class="servtitle">EBC/A+ Content</span>
+                        </div>
+                     </a>
+                     <div class="servaddon">
+                        <span class="mypara">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        </span>
                      </div>
+                  </li>
+                  <li>
+                     <a href="#servtabs-4">
+                        <div class="servtag">
+                           <div class="servicon">
+                              <div class="servblock">
+                                 <div class="servcircle">4</div>
+                              </div>
+                           </div>
+                           <span class="servtitle">Amazon PPC</span>
+                        </div>
+                     </a>
+                     <div class="servaddon">
+                        <span class="mypara">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        </span>
+                     </div>
+                  </li>
+                  <li>
+                     <a href="#servtabs-5">
+                        <div class="servtag">
+                           <div class="servicon">
+                              <div class="servblock">
+                                 <div class="servcircle">5</div>
+                              </div>
+                           </div>
+                           <span class="servtitle">Virtual Assistance</span>
+                        </div>
+                     </a>
+                     <div class="servaddon">
+                        <span class="mypara">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        </span>
+                     </div>
+                  </li>
+               </ul>
+               <div class="servbrowser">
+                  <div id="servtabs-1">
+                     <img src="assests/images/servtab-img01.png" alt="">
                   </div>
-               </div>
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/features.png" alt="">
-                        <img class="myhover" src="assests/images/features-hover.png" alt="">
-                     </div>
-                     <div class="serv-cntnt">
-                        <h2>Amazon Product Hunting</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                     </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
+                  <div id="servtabs-2">
+                     <img src="assests/images/servtab-img02.png" alt="">
                   </div>
-               </div>
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/writing.png" alt="">
-                        <img class="myhover" src="assests/images/writing-hover.png" alt="">
-                     </div>
-                     <div class="serv-cntnt">
-                        <h2>EBC/A+ Content</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                     </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
+                  <div id="servtabs-3">
+                     <img src="assests/images/servtab-img01.png" alt="">
                   </div>
-               </div>
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/shop.png" alt="">
-                        <img class="myhover" src="assests/images/shop-hover.png" alt="">
-                     </div>
-                     <div class="serv-cntnt">
-                        <h2>Amazon Store Creation</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                     </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
+                  <div id="servtabs-4">
+                     <img src="assests/images/servtab-img02.png" alt="">
                   </div>
-               </div>
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/features.png" alt="">
-                        <img class="myhover" src="assests/images/features-hover.png" alt="">
-                     </div>
-                     <div class="serv-cntnt">
-                        <h2>Amazon Product Hunting</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                     </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 my-slider-box">
-                  <div class="serv-box">
-                     <div class="serv-img">
-                        <img class="normal" src="assests/images/writing.png" alt="">
-                        <img class="myhover" src="assests/images/writing-hover.png" alt="">
-                     </div>
-                     <div class="serv-cntnt">
-                        <h2>EBC/A+ Content</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                     </div>
-                     <div class="serv-btn1">
-                        <a href="#">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </a>
-                     </div>
+                  <div id="servtabs-5">
+                     <img src="assests/images/servtab-img01.png" alt="">
                   </div>
                </div>
             </div>
@@ -242,9 +247,9 @@
                <p>We, at Amazon Profs, ensure that the metrics and solutions assigned for a certain campaign are according to the client’s requirements. Measuring effectiveness across all channels and adjusting the strategy accordingly is a pivotal aspect of managing and organizing a campaign. A marketing plan for Amazon should provide value, engage the target audience, and ensure high productivity.</p>
                <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
                <div class="bnr-btn campaign">
-                        <a class="btn-1 Reviews-btn" href="#">Read Our Star Rating Reviews</a>
-                        <a class="btn-2" href="#">Live Chat</a>
-                    </div>
+                  <a class="btn-1 Reviews-btn" href="#scroll-testi">Read Our Star Rating Reviews</a>
+                  <a class="btn-2" href="#">Live Chat</a>
+               </div>
                <img class="camp-arrow" src="assests/images/camp-arrow.png" alt="">
             </div>
          </div>
@@ -267,9 +272,9 @@
                   <h3>STARS ON CAPTERRA & GETAPP</h3>
                </div>
                <div class="bnr-btn promo">
-                        <a class="btn-1" href="#">Get a Quote</a>
-                        <a class="btn-2" href="#">Live Chat</a>
-                    </div>
+                  <a class="btn-1" href="#">Get a Quote</a>
+                  <a class="btn-2" href="#">Live Chat</a>
+               </div>
             </div>
          </div>
          <div class="col-md-6">
@@ -316,7 +321,7 @@
                <p>If you are skeptical about hiring an Amazon business consultant to promote your online store.</p>
             </div>
             <div class="bnr-btn">
-               <a class="btn-4" href="#">Boost Your Sale
+               <a class="btn-4" href="contact-us.php">Boost Your Sale
                <img src="assests/images/icon-areo.png" alt="">
                </a>
             </div>
@@ -366,9 +371,9 @@
                   </li>
                </ul>
                <div class="bnr-btn campaign">
-                        <a class="btn-1" href="#">Get a Quote</a>
-                        <a class="btn-2" href="#">Live Chat</a>
-                    </div>
+                  <a class="btn-1" href="#">Get a Quote</a>
+                  <a class="btn-2" href="#">Live Chat</a>
+               </div>
             </div>
          </div>
          <div class="col-md-6">
@@ -462,7 +467,7 @@
                <p>If you are skeptical about hiring an Amazon business consultant to promote your online store.</p>
             </div>
             <div class="bnr-btn">
-            <a class="btn-4" href="#">Boost Your Sale
+               <a class="btn-4" href="contact-us.php">Boost Your Sale
                <img src="assests/images/icon-areo.png" alt="">
                </a>
             </div>
@@ -477,15 +482,15 @@
             <div class="plan-box">
                <div class="plan-serv-box">
                   <img src="assests/images/plan-01.png" alt="">
-                  <h1>PPC</h1>
+                  <h1>Amazon Store Creation</h1>
                   <p>Higher revenue, lower ACOS, and transparent advertising management.</p>
-                  <a class="btn-1 plans" href="#">Learn More</a>
+                  <a class="btn-1 plans" href="amazon-store-creation.php">Learn More</a>
                </div>
                <div class="plan-serv-box">
                   <img src="assests/images/plan-02.png" alt="">
-                  <h1>SEO</h1>
+                  <h1>Amazon Product Hunting</h1>
                   <p>Our 4-phase Amazon SEO plan is best-in-class and will show dramatic results in search rankings in 90 days.</p>
-                  <a class="btn-1 plans" href="#">Learn More</a>
+                  <a class="btn-1 plans" href="amazon-product-hunting.php">Learn More</a>
                </div>
             </div>
          </div>
@@ -493,99 +498,99 @@
             <div class="plan-box1">
                <div class="plan-serv-box">
                   <img src="assests/images/plan-03.png" alt="">
-                  <h1>Design</h1>
+                  <h1>EBC/A+ Content</h1>
                   <p>Enhanced Brand Content, Brand Stores, and graphics that convert.</p>
-                  <a class="btn-1 plans" href="#">Learn More</a>
+                  <a class="btn-1 plans" href="ebca+-content.php">Learn More</a>
                </div>
                <div class="plan-serv-box">
                   <img src="assests/images/plan-04.png" alt="">
-                  <h1>Platform Management</h1>
+                  <h1>Virtual Assistant</h1>
                   <p>Higher revenue, lower ACOS, and transparent advertising management.</p>
-                  <a class="btn-1 plans" href="#">Learn More</a>
+                  <a class="btn-1 plans" href="virtual-assistant.php">Learn More</a>
                </div>
             </div>
          </div>
          <div class="col-md-4">
             <div class="plan-txt-box">
-                <h1>How Our Services Help You Grow <span class="txt-clr"> Market Share </span></h1>
-                <p>To help you increase your sales, we take a two-step approach. First, we drive traffic to your listings. And then we boost your conversions. Sounds simple, doesn’t it? It is. <br> By building your PPC campaigns, developing your SEO, enhancing your designs, and curating and troubleshooting your catalogs, we’ll strengthen your brand and your performance on Seller Central. You should be seeing more traffic and revenue within just a few months.</p>
-                <a class="btn-1" href="#">Explore All Services</a>
+               <h1>How Our Services Help You Grow <span class="txt-clr"> Market Share </span></h1>
+               <p>To help you increase your sales, we take a two-step approach. First, we drive traffic to your listings. And then we boost your conversions. Sounds simple, doesn’t it? It is. <br> By building your PPC campaigns, developing your SEO, enhancing your designs, and curating and troubleshooting your catalogs, we’ll strengthen your brand and your performance on Seller Central. You should be seeing more traffic and revenue within just a few months.</p>
+               <a class="btn-1" href="#">Chat with Us for more</a>
             </div>
             <div class="price-box-cntnt">
-                <h3>Looking For</h3>
-                <h1>Custom Plans Pricing &</h1>
-                <p>Request a Proposal To Recieve Yours.</p>
-                <a class="btn-1" href="#">Request A Quote</a>
+               <h3>Looking For</h3>
+               <h1>Custom Plans Pricing &</h1>
+               <p>Request a Proposal To Recieve Yours.</p>
+               <a class="btn-1" href="#">Request A Quote</a>
             </div>
          </div>
       </div>
    </div>
 </section>
-<section class="testimonails-sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 test-sec-box">
-                <div class="test-box">
-                    <h1>What Our Customers Have To Say About Us</h1>
-                    <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. </p>
-                    <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
-                    <div class="bnr-btn">
-                        <a class="btn-4" href="#">Read Our 5+ Client Rating</a>
-                        <img class="test-arrow" src="assests/images/camp-arrow.png" alt="">
-                    </div>
-                </div>
+<section class="testimonails-sec" id="scroll-testi">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 test-sec-box">
+            <div class="test-box">
+               <h1>What Our Customers Have To Say About Us</h1>
+               <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. </p>
+               <img class="camp-star" src="assests/images/Campaign-star.png" alt="">
+               <div class="bnr-btn">
+                  <a class="btn-4" href="#">Read Our 5+ Client Rating</a>
+                  <img class="test-arrow" src="assests/images/camp-arrow.png" alt="">
+               </div>
             </div>
-            <div class="col-md-6">
-                <div class="row testimonail-slide">
-                    <div class="test-slide-box testimonials">
-                        <div class="col-sm-12">
-                            <div class="test-silder-box">
-                                <img class="test-img" src="assests/images/test-01.png" alt="">
-                                <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
-                                <h1>Stanley Lucas</h1>
-                                <h3>Sales Executive</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="test-silder-box">
-                                <img class="test-img" src="assests/images/test-01.png" alt="">
-                                <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
-                                <h1>Stanley Lucas</h1>
-                                <h3>Sales Executive</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="test-silder-box">
-                                <img class="test-img" src="assests/images/test-01.png" alt="">
-                                <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
-                                <h1>Stanley Lucas</h1>
-                                <h3>Sales Executive</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="test-silder-box">
-                                <img class="test-img" src="assests/images/test-01.png" alt="">
-                                <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
-                                <h1>Stanley Lucas</h1>
-                                <h3>Sales Executive</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+         </div>
+         <div class="col-md-6">
+            <div class="row testimonail-slide">
+               <div class="test-slide-box testimonials">
+                  <div class="col-sm-12">
+                     <div class="test-silder-box">
+                        <img class="test-img" src="assests/images/test-01.png" alt="">
+                        <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
+                        <h1>Stanley Lucas</h1>
+                        <h3>Sales Executive</h3>
+                     </div>
+                  </div>
+                  <div class="col-sm-12">
+                     <div class="test-silder-box">
+                        <img class="test-img" src="assests/images/test-01.png" alt="">
+                        <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
+                        <h1>Stanley Lucas</h1>
+                        <h3>Sales Executive</h3>
+                     </div>
+                  </div>
+                  <div class="col-sm-12">
+                     <div class="test-silder-box">
+                        <img class="test-img" src="assests/images/test-01.png" alt="">
+                        <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
+                        <h1>Stanley Lucas</h1>
+                        <h3>Sales Executive</h3>
+                     </div>
+                  </div>
+                  <div class="col-sm-12">
+                     <div class="test-silder-box">
+                        <img class="test-img" src="assests/images/test-01.png" alt="">
+                        <p>Request a proposal to learn more about our PPC services for Amazon, which include frequent reporting, a dedicated account manager, and proactive bid management that can help you start making more money. A competitive pay-per-click (PPC) campaign is just as important for competing on Amazon. </p>
+                        <h1>Stanley Lucas</h1>
+                        <h3>Sales Executive</h3>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
 </section>
 <section class="client-logos">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="client-logo-box">
-                    <img src="assests/images/clients-logo.png" alt="">
-                </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="client-logo-box">
+               <img src="assests/images/clients-logo.png" alt="">
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
 </section>
 <?php include 'include/footer.php';?>
 <?php include 'include/links.php';?>
