@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 myblogs">
-                <div class="prvcy-txt">
+                <div class="prvcy-txt" data-aos="zoom-in" data-aos-duration="1000">
                     <h1>Terms &<span class="txt-clr"> Conditions </span></h1>
                 </div>
             </div>

@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <div class="footer-logo">
                     <a href="../index.php">
-                        <img src="../assests/images/brand-logo.png" alt="logo">
+                        <img src="../assests/images/brand-logo.gif" alt="logo">
                     </a>
                 </div>
                 <div class="footer-txt">
@@ -107,7 +107,88 @@
         </div>
     </div>
 </section>
-
+<section class="poppup-form">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <!-- Modal -->
+            <div class="modal popup fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog mypopup">
+                  <div class="modal-content">
+                     <div class="modal-header popup-closed">
+                        <button type="button" class="poppup-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="row">
+                           <div class="col-sm-7">
+                              <div class="poppp-form">
+                                 <h3>Boost <span class="txt-clr"> Your Online </span>Presence</h3>
+                                 <h1>And <span class="txt-clr">Avail 50% Discount </span> on Signup</h1>
+                                 <form method="post" action="../sendmail.php">
+                                    <div class="row">
+                                       <div class="col-sm-12 form-input">
+                                          <input type="text" name="name" placeholder="Full name..." required="">
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-sm-12 form-input">
+                                          <input type="email" name="email" placeholder="Email..." required="">
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-sm-12 form-input">
+                                          <input type="number" name="phone" placeholder="Phone Number..." required="">
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-sm-12 form-input">
+                                          <textarea name="msg" id="" placeholder="Brief..." cols="30" rows="3"></textarea>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-sm-12 submit-btn">
+                                          <input type="submit" name="submit" value="Get Free Consultation">
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                           <div class="col-sm-5 popup-cntct">
+                              <div class="popup-txt">
+                                <a href="index.php">
+                                    <img src="assests/images/poppup-logo.png" alt="">
+                                </a>
+                                 <h1>Glad To See You!</h1>
+                                 <p>Welcome! Delighted to see you. Connect with us by filling out the form below for exclusive updates and offers. Let's journey together!</p>
+                                 <ul>
+                                    <a href="#">
+                                       <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                                    </a>
+                                    <a href="#">
+                                       <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                                    </a>
+                                    <a href="#">
+                                       <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                                    </a>
+                                    <a href="#">
+                                       <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                                    </a>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 <script src="../assests/js/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="../assests/js/popper.min.js"></script>
@@ -117,5 +198,8 @@
 <script src="../assests/js/custom.js"></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<!-- Start of designpriestssupport Zendesk Widget script -->
+<!-- <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=53ab3abc-8454-4754-bc70-c3dcf9434dca"> </script> -->
+ <!-- End of designpriestssupport Zendesk Widget script  -->
 </body>
 </html>

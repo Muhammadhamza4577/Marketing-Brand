@@ -5,7 +5,7 @@
             <div class="container-fluid">
                <div class="brand-log">
                   <a href="index.php">
-                  <img src="assests/images/brand-logo.png" alt="logo">
+                  <img src="assests/images/brand-logo.gif" alt="logo">
                   </a>
                </div>
                <div class="collapse navbar-collapse" id="main_nav">

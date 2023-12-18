@@ -8,7 +8,7 @@
     <title>Amz Marketing Pro</title>
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assests/images/favicon-dark.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assests/css/custom.css">
     <link rel="stylesheet" href="../assests/css/responsive.css">
@@ -25,7 +25,7 @@
             <div class="container-fluid">
                <div class="brand-log">
                   <a href="../index.php">
-                  <img src="../assests/images/brand-logo.png" alt="logo">
+                  <img src="../assests/images/brand-logo.gif" alt="logo">
                   </a>
                </div>
                <div class="collapse navbar-collapse" id="main_nav">
