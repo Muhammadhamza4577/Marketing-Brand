@@ -132,7 +132,7 @@
          <div class="col-md-4"></div>
       </div>
       <div class="row">
-         <div class="col-md-12 my-all-serv">
+         <div class="col-md-12 my-all-serv" data-aos="fade-up" data-aos-duration="2000">
             <div id="servtabs">
                <ul id="servaccordion">
                   <li>
